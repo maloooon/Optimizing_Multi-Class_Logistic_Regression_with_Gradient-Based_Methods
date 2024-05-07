@@ -43,7 +43,7 @@ print(result_matrix.shape)
 # We find our labels by considering the max index in the row as the class label
 
 # Find the column indices of maximum values for each row
-max_indices = np.argmax(result_matrix, axis=1)
+max_indices = np.argmax(result_maqaqatrix, axis=1)
 
 print(max_indices)
 
